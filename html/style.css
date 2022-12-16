@@ -20,34 +20,83 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
     --min-dark: #3d5391;
 }
 
-a {
-    color: var(--min-secondary);
-    text-decoration: none;
-}
-.navbar-brand:hover {
-    font-style:normal;
-}
-body {
-    padding-bottom:0;
-    margin-bottom:0;
-}
+/* menu css */
 .navbar {
     background-color: var(--min-primary) !important;
     color:var(--min-dark) !important;
 }
+.navbar-brand:hover {
+    font-style:normal;
+}
+.navbar-brand {
+    float:left;
+    color:var(--min-dark)
+}
+.drop-second {
+    text-indent: 1rem;
+}
+.dropdown-toggle {
+    background-color: rgba(0,0,0,0);
+    border:0;
+}
+#selvbetjening {
+    float:left;
+}
+
+/* footer css */
 .footer {
     background-color: var(--min-primary);
     color: var(--min-dark);
     position:relative;
-    margin:1vw 0 0 0vw;
+    margin:0;
     padding:0.5ex 0 1.5ex;
     bottom:0px;
     width:100%;
 }
 .footer .row {
     font-size: small;
-    /*margin:20px;*/
 }
 #bib {
     text-align: right;
+}
+
+/* generel css */
+a {
+    color: var(--min-secondary);
+    text-decoration: none;
+}
+body {
+    padding-bottom:0;
+    margin-bottom:0;
+    min-height: 100vh;
+}
+.body {
+    display: flex;
+    flex-direction: column;
+    min-height:100vh;
+    justify-content:space-between;
+}
+
+/* Personale side css */
+.navn {
+    font-size: large;
+}
+.rolle {
+    font-size: medium;
+}
+.portait {
+    width:15rem;
+    max-width: 30%;
+}
+.personale {
+    width:30rem; 
+    max-width:100%;
+}
+
+/* Litteraturliste css */
+.logos {
+    height:5rem;
+}
+.inside {
+    width:8rem;
 }

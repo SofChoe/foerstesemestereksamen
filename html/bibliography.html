@@ -14,32 +14,65 @@
         <title>Litteraturliste</title>
     </head>
 <body>
+  <div class="body">
     <header>
-        <!-- Navbar hentet her https://getbootstrap.com/docs/4.0/components/navbar/?#responsive-behaviors -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="index.html">Dit Lægehus</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled" href="#">Disabled</a>
-                </li>
+    <!-- Navbar hentet her https://getbootstrap.com/docs/4.0/components/navbar/?#responsive-behaviors -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a href="index.html"><img src="/logo/Asset 2.png" alt="Dit Lægehus logo" style="height:3rem; margin-right:1rem;"></a>
+      <a class="navbar-brand" href="index.html">    
+          Dit<br>Lægehus
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="navbar-item">
+                <a class="btn" href="selvbetjening.html" id="selvbetjening">Selvbetjening</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Forside <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Online Klinik</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Aktuelt</a>
+            </li>
+            <li class="nav-item dropdown">
+              <button class="nav-link dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Behandlinger</button>
+              <ul class="dropdown-menu" aria-label="dropdown Menu Button">
+                <li><a class="dropdown-item" href="#">Fod- og håndvorter</a></li>
+                <li><a class="dropdown-item" href="#">Gravid</a></li>
+                <li><a class="dropdown-item" href="#">Vaccination</a></li>
+                <li><a class="dropdown-item" href="#">Diverse skemaer</a></li>
+                <li><a class="dropdown-item" href="#">Links</a></li>
               </ul>
-              <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-              </form>
-            </div>
-          </nav>
+            </li>
+            <li class="nav-item dropdown">
+              <button class="nav-link dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Kontakt</button>
+              <ul class="dropdown-menu" aria-label="dropdown Menu Button">
+                <li><a class="dropdown-item" href="#">Praktisk info</a></li>
+                <li><a class="dropdown-item drop-second" href="#">Find vej</a></li>
+                <li><a class="dropdown-item" href="personale.html">Læger og personale</a></li>
+                <li><a class="dropdown-item drop-second" href="#">Specialer</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <button class="nav-link dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Om os</button>
+              <ul class="dropdown-menu" aria-label="dropdown Menu Button">
+                <li><a class="dropdown-item" href="#">GDPR</a></li>
+                <li><a class="dropdown-item" href="#">Samarbejdspartnere</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Søg her">
+            <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Søg</button>
+          </form>
+        </div>
+      </nav>
     </header>
 
     <div class="container">
@@ -54,32 +87,34 @@
                     </ul>
                 </li></ul>
             </div>
-            <div class="col-4"><img src="/img/Untitled.gif"></div>
-
+            <div class="col-4"><img class="logos" src="/logo/bootstrap-4-icon.png" alt="Bootstrap 4.0 logo"></div>
+<!-- 
             <div class="col-8">
-            <ul><li>Link til iconer
+            <ul><li>Link til ikoner
                 <ul>
+                    <li> Ikoner lavet af <a href="https://www.freepik.com" title="Freepik">Freepik</a> fra</li>
                     <li><a href="https://www.flaticon.com/">flaticon.com</a></li>
                 </ul>
             </li></ul>
             </div>
-            <div class="col-4"><img src="/img/Untitled.gif"></div>
-
+            <div class="col-4"><img class="logos" src="/logo/flaticon-icon.png" alt="Flaticon logo"></div>
+ -->
             <div class="col-8">
                 <ul><li>Link til billeder
                     <ul>
                         <li><a href="https://unsplash.com/">unsplash.com</a></li>
                         <li><a href="https://www.pexels.com/">pexels.com</a></li>
+                        <li><a href="https://pixabay.com/">pixabay.com</a></li>
                     </ul>
                 </li></ul>
             </div>
-            <div class="col-4"><img src="/img/Untitled.gif"></div>
+            <div class="col-4">
+                <img  class="logos" src="/logo/unsplash_icon.png" alt="Unsplash logo"><br>
+                <img class="logos" src="/logo/pexels_logo.png" alt="Pexels logo"><br>
+                <img class="logos" src="/logo/pixabay-icon.png" alt="Pixabay logo">
+            </div>
             <div class="col-12"></div>
         </div>
-    </div>
-
-    <div>
-        Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
     </div>
 
     <!-- Obligatorisk disclaimer -->
@@ -94,7 +129,7 @@
                 </div>
                 <!-- bonus side -->
                 <div class="col-sm-2 ml-auto">
-                    <a href="bibliography.html"><span id="bib">Litteraturliste.</span></a>
+                    <a href="bibliography.html"><span id="bib">Litteraturliste.</span><span class="sr-only">(current)</span></a>
                 </div>
             </div>
             <div class="row">
@@ -107,6 +142,6 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
+</div>
 </body>
 </html>

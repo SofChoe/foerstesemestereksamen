@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> 
     <!-- link til ekstern css -->
     <link rel="stylesheet" href="style.css">
-    <title>Dit Lægehus</title>
+    <title>Læger og personale</title>
 </head>
 <body>
   <div class="body">
@@ -50,12 +50,12 @@
                 <li><a class="dropdown-item" href="#">Links</a></li>
               </ul>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown active">
               <button class="nav-link dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Kontakt</button>
               <ul class="dropdown-menu" aria-label="dropdown Menu Button">
                 <li><a class="dropdown-item" href="#">Praktisk info</a></li>
                 <li><a class="dropdown-item drop-second" href="#">Find vej</a></li>
-                <li><a class="dropdown-item" href="personale.html">Læger og personale</a></li>
+                <li><a class="dropdown-item active" href="personale.html">Læger og personale<span class="sr-only">(current)</span></a></li>
                 <li><a class="dropdown-item drop-second" href="#">Specialer</a></li>
               </ul>
             </li>
@@ -75,39 +75,39 @@
       </nav>
     </header>
 
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <h1>Velkommen til Dit Lægehus</h1>
-      </div>
-
-      <div class="col-12 col-md-8 col-lg-6">
-          <p>Her er vi tre praktiserende læger, som står for at drive stedet.</p>
-      </div>
-      <div class="col-md-12 col-lg-6">
-        <img class="inside" src="/img/Untitled.gif" alt="pladsholder">
-        <img class="inside" src="/img/Untitled.gif" alt="pladsholder">
-        <img class="inside" src="/img/Untitled.gif" alt="pladsholder">
-      </div>
-    </div>
-    <div class="card-deck">
-      <div class="card">      
-        <div class="card-body">
-          <h4 class="card-title">Konsultationstider</h4>
-          <p class="card-text">Mandag - Torsdag:<br>08:00 - 16:00<br>Fredag<br>08:00 - 12:00</p>
-          <a href="#" class="btn btn-primary">Kontakt</a>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1>Læger og personale</h1>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <h2>Læger</h2>
+                <p class="navn">Erling Klaus Hasselberg (f. 1963)</p>
+                <p class="rolle">Speciallæge i Alm. Medicin</p><br>
+                <p class="navn">Majbritt Rønne Nielsen (f. 1978)</p>
+                <p class="rolle">Speciallæge i Alm. Medicin</p><br>
+                <p class="navn">Stine Marie Kjær Mikkelsen (f. 1986)</p>
+                <p class="rolle">Speciallæge i Alm. Medicin</p><br>
+            </div>
+            <div class="col-md-6 col-lg-8">
+                <img class="portait" src="/img/doctor-2337835_640.jpg" alt="Læge billede fra Pixabay">
+                <img class="portait" src="/img/pexels-tima-miroshnichenko-8376300-crop.jpg" alt="Læge billede fra Pexels">
+                <img class="portait" src="/img/pexels-antoni-shkraba-5214963-crop.jpg" alt="Læge billede fra Pexels">
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <h2>Personale</h2>
+                <p class="navn">William Pressing</p>
+                <p class="rolle">Sygeplejerske</p><br>
+                <p class="navn">Nina Munk Pedersen</p>
+                <p class="rolle">Sygeplejerske</p><br>
+                <p class="navn">Anitta Koldgaard Andersen</p>
+                <p class="rolle">Lægesekretær</p><br>
+            </div>
+            <div class="col-12 col-md-6 col-lg-8">
+                <img class="personale" src="/img/pexels-cedric-fauntleroy-4269274.jpg" alt="En kvinde og en mand står i en læge reception. Billede fra Pexels">
+            </div>
         </div>
-      </div>
-      <div class="card">
-        <div class="card-body">
-          <h4 class="card-title">Konsultationstider</h4>
-          <p class="card-text">Mandag - Torsdag:<br>08:00 - 16:00<br>Fredag<br>08:00 - 12:00</p>
-          <a href="#" class="btn btn-primary">Kontakt</a>
-        </div>
-      </div>
-    </div>  
-  </div>  
-
+</div>
     <!-- Obligatorisk disclaimer -->
     <footer class="footer">
       <div class="container">
@@ -133,6 +133,7 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</div>
 </div>
 </body>
 </html>
