@@ -10,6 +10,15 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
     font-family: 'Roboto Slab', serif;
     color:var(--min-dark);
 }
+h2 {
+    font-size: x-large;
+}
+h3 {
+    font-size:larger;
+}
+h4 {
+    font-size: large;
+}
 
 /* Mine egne farver */
 :root {
@@ -22,7 +31,7 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
 
 /* menu css */
 .navbar {
-    background-color: var(--min-primary) !important;
+    background-color: var(--min-light) !important;
     color:var(--min-dark) !important;
 }
 .navbar-brand:hover {
@@ -30,7 +39,13 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
 }
 .navbar-brand {
     float:left;
-    color:var(--min-dark)
+    color:var(--min-dark) !important;
+}
+.nav-link {
+    color:var(--min-dark) !important;
+}
+.active {
+    text-decoration: underline;
 }
 .drop-second {
     text-indent: 1rem;
@@ -45,7 +60,7 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
 
 /* footer css */
 .footer {
-    background-color: var(--min-primary);
+    background-color: var(--min-light);
     color: var(--min-dark);
     position:relative;
     margin:0;
@@ -59,7 +74,9 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
 #bib {
     text-align: right;
 }
-
+.footer-info {
+    margin-top:1rem;
+}
 /* generel css */
 a {
     color: var(--min-secondary);
@@ -67,7 +84,6 @@ a {
 }
 body {
     padding-bottom:0;
-    margin-bottom:0;
     min-height: 100vh;
 }
 .body {
@@ -76,7 +92,26 @@ body {
     min-height:100vh;
     justify-content:space-between;
 }
-
+.btn {
+    background-color: var(--min-primary);
+    border:0;
+    color:var(--min-secondary);
+}
+.btn:hover{
+    background-color: var(--min-secondary);
+    color:var(--min-white);
+}
+/* Forside css */
+.inside {
+    width:10rem;
+}
+#forsideimg {
+    margin-bottom: 2rem;;
+}
+.tider {
+    text-align: center;
+    border-color: black;
+}
 /* Personale side css */
 .navn {
     font-size: large;
@@ -96,7 +131,4 @@ body {
 /* Litteraturliste css */
 .logos {
     height:5rem;
-}
-.inside {
-    width:8rem;
 }
