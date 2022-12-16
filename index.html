@@ -11,7 +11,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> 
     <!-- link til ekstern css -->
     <link rel="stylesheet" href="style.css">
-    <title>Læger og personale</title>
+    <title>Dit Lægehus</title>
+    <!-- Favicon -->
+    <link rel="icon" href="logo/favicon.png">
   </head>
   <body>
     <div class="body">
@@ -19,7 +21,7 @@
       <header>
     <!-- Navbar hentet her https://getbootstrap.com/docs/4.0/components/navbar/?#responsive-behaviors -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a href="index.html"><img src="/logo/logo.png" alt="Dit Lægehus logo" style="height:3rem; margin-right:1rem;"></a>
+      <a href="index.html"><img src="logo/favicon.png" alt="Dit Lægehus logo" style="height:3rem; margin-right:1rem;"></a>
       <a class="navbar-brand" href="index.html">    
           Dit<br>Lægehus
         </a>
@@ -33,7 +35,7 @@
                 <a class="btn" href="selvbetjening.html" id="selvbetjening">Selvbetjening</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Forside <span class="sr-only">(current)</span></a>
+              <a class="nav-link active" href="index.html">Forside <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Online Klinik</a>
@@ -51,12 +53,12 @@
                 <li><a class="dropdown-item" href="#">Links</a></li>
               </ul>
             </li>
-            <li class="nav-item dropdown active">
+            <li class="nav-item dropdown">
               <button class="nav-link dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Kontakt</button>
               <ul class="dropdown-menu" aria-label="dropdown Menu Button">
                 <li><a class="dropdown-item" href="#">Praktisk info</a></li>
                 <li><a class="dropdown-item drop-second" href="#">Find vej</a></li>
-                <li><a class="dropdown-item active" href="personale.html">Læger og personale<span class="sr-only">(current)</span></a></li>
+                <li><a class="dropdown-item" href="personale.html">Læger og personale</a></li>
                 <li><a class="dropdown-item drop-second" href="#">Specialer</a></li>
               </ul>
             </li>
@@ -79,85 +81,86 @@
 <!-- Indhold -->
       <div class="container">
         <div class="row">
-            <div class="col-12">
-                <h1>Læger og personale</h1>
-            </div>
-            <div class="col-md-6 col-lg-4">
-                <h2>Læger</h2>
-                <p class="navn">Erling Klaus Hasselberg (f. 1963)</p>
-                <p class="rolle">Speciallæge i Alm. Medicin</p><br>
-                <p class="navn">Majbritt Rønne Nielsen (f. 1978)</p>
-                <p class="rolle">Speciallæge i Alm. Medicin</p><br>
-                <p class="navn">Stine Marie Kjær Mikkelsen (f. 1986)</p>
-                <p class="rolle">Speciallæge i Alm. Medicin</p><br>
-            </div>
-            <div class="col-md-6 col-lg-8">
-                <img class="portait" src="/img/doctor-2337835_640.jpg" alt="Læge billede fra Pixabay">
-                <img class="portait" src="/img/pexels-tima-miroshnichenko-8376300-crop.jpg" alt="Læge billede fra Pexels">
-                <img class="portait" src="/img/pexels-antoni-shkraba-5214963-crop.jpg" alt="Læge billede fra Pexels">
-            </div>
-            <div class="col-md-6 col-lg-4">
-                <h2>Personale</h2>
-                <p class="navn">William Pressing</p>
-                <p class="rolle">Sygeplejerske</p><br>
-                <p class="navn">Nina Munk Pedersen</p>
-                <p class="rolle">Sygeplejerske</p><br>
-                <p class="navn">Anitta Koldgaard Andersen</p>
-                <p class="rolle">Lægesekretær</p><br>
-            </div>
-            <div class="col-12 col-md-6 col-lg-8">
-                <img class="personale" src="/img/pexels-cedric-fauntleroy-4269274.jpg" alt="En kvinde og en mand står i en læge reception. Billede fra Pexels">
-            </div>
+          <div class="col-12">
+            <h1>Velkommen til Dit Lægehus</h1>
+          </div>
+          <div class="col-12 col-md-8 col-lg-6">
+            <p>Her er vi tre praktiserende læger, som står for at drive stedet.<br>For fornyelse af recepter, oversigt over kalender med ledige tider, samt fremtidige aftaler, bedes du anvende selvbetjening.</p>
+          </div>
+          <div class="col-md-12 col-lg-6 d-flex justify-content-between" id="forsideimg">
+            <img class="inside" src="img/petr-magera-HuWm7malJ18-unsplash-crop.jpg" alt="Billede af et lyst rum med planter af Petr Magera fra Unsplash">
+            <img class="inside" src="img/riccardo-pelati-_-Cg7vTw3bs-unsplash-crop.jpg" alt="Billede af et lyst rum med planter af Riccardo Pelati fra Unsplash">
+            <img class="inside" src="img/doctor-548133_1920-crop.jpg" alt="Billede af en læges lokale fra Pixabay">
+          </div>
+<!-- Træffetider afsnit -->
+          <div class="col-sm-12 col-md-6 col-lg-6">
+            <h2>Træffetider</h2>
+            <p>Det er muligt at kontakte os per telefon i disse tidsrum.</p>
+          </div>
+          <div class="tider col-sm-6 col-md-6 col-lg-3">      
+            <h3>Konsultationstider</h3>
+            <p>Mandag - Torsdag:<br>08:00 - 16:00<br>Fredag<br>08:00 - 12:00</p>
+            <a href="#" class="btn btn-primary">Kontakt</a>
+          </div>
+          <div class="tider col-sm-6 col-md-6 col-lg-3">
+            <h3>Telefontider</h3>
+            <p>Mandag - Fredag:<br>08:00 - 10:00<br>10:30 - 12:00</p><br>
+            <a href="#" class="btn btn-primary">Kontakt</a>
+          </div>
+<!-- endnu et afsnit -->
+          <div class="col-12">
+          kk
+          </div>
         </div>
       </div>
 
 <!-- Footer -->
       <footer class="footer">
   <!-- Praktisk info -->
-        <div class="container footer-info">
-          <div class="row">
-            <div class="col-lg-3">
-              <h4>Dit Lægehus<br></h4>
-              Benzylpenicillin Gade 112<br>
-              6400 Herning<br>
-              Tlf: 96 27 48 65<br>
-              CVR nr: 46 38 59 37<br>
-              Telefon tid: 08:00 - 10:00 og 10:30 - 12:00
-            </div>
-            <div class="col-lg-3">
-              <h4>Akut telefon<br></h4>
-              Akut telefonen skal kun anvendes til AKUT behov for lægehjælp<br>
-              kl. 12:00 - 16:00<br>
-              Tlf: 96 27 48 65
-            </div>
-            <div class="col-lg-3">
-              <h4>Lægevagt<br></h4>
-              Tlf: 37491717<br>
-              Fra kl 16:00 - 18:00 i hverdagene 
-            </div>
-            <div class="col-lg-3">
-              <a class="btn" href="https://www.sundhed.dk/borger/patienthaandbogen/">Patienthåndbogen</a>
-            </div>
+      <div class="container footer-info">
+        <div class="row">
+          <div class="col-lg-3">
+            <h4>Dit Lægehus<br></h4>
+            Benzylpenicillin Gade 112<br>
+            6400 Herning<br>
+            Tlf: 96 27 48 65<br>
+            CVR nr: 46 38 59 37<br>
+            Telefon tid: 08:00 - 10:00 og 10:30 - 12:00
+          </div>
+          <div class="col-lg-3">
+            <h4>Akut telefon<br></h4>
+            Akut telefonen skal kun anvendes til AKUT behov for lægehjælp<br>
+            kl. 12:00 - 16:00<br>
+            Tlf: 96 27 48 65
+          </div>
+          <div class="col-lg-3">
+            <h4>Lægevagt<br></h4>
+            Tlf: 37491717<br>
+            Fra kl 16:00 - 18:00 i hverdagene 
+          </div>
+          <div class="col-lg-3">
+            <a class="btn" href="https://www.sundhed.dk/borger/patienthaandbogen/">Patienthåndbogen</a>
           </div>
         </div>
+      </div>
   <!-- Obligatorisk disclaimer -->
-        <div class="container">
-            <div class="row">
-                <div class="col-12"><br></div>
-            </div>
-            <div class="row justify-content-between">
-                <div class="col-sm-5 mr-auto">
-                    <span id="disclaimer">Dette site har kun til undervisningsformål.</span>
-                </div>
-                <!-- bonus side -->
-                <div class="col-sm-2 ml-auto">
-                    <a href="bibliography.html"><span id="bib">Litteraturliste.</span></a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12"><br></div>
-            </div>
-        </div>
+      <div class="container">
+          <div class="row">
+              <div class="col-12"><br></div>
+          </div>
+          <div class="row justify-content-between">
+              <div class="col-sm-5 mr-auto">
+                  <span id="disclaimer">Dette site har kun til undervisningsformål.</span>
+              </div>
+              <!-- bonus side -->
+              <div class="col-sm-2 ml-auto">
+                  <a href="bibliography.html"><span id="bib">Litteraturliste.</span></a>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-12"><br></div>
+          </div>
+      </div>
       </footer>
 
 <!-- Links til Bootstrap 4.0 java -->
