@@ -101,6 +101,9 @@ body {
     background-color: var(--min-secondary);
     color:var(--min-white);
 }
+ul {
+    list-style-type: none;
+}
 /* Forside css */
 .inside {
     width:11rem;
