@@ -103,7 +103,8 @@ body {
 }
 /* Forside css */
 .inside {
-    width:10rem;
+    width:11rem;
+    height:calc(11rem/1.5);
 }
 #forsideimg {
     margin-bottom: 2rem;;
@@ -131,4 +132,6 @@ body {
 /* Litteraturliste css */
 .logos {
     height:5rem;
+    margin:0.5rem;
 }
+
