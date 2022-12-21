@@ -13,7 +13,7 @@
 
 p, span, button, a, body {
     font-family: 'Nunito', sans-serif;
-    color:var(--min-dark);
+    color: var(--min-dark);
 }
 h1, h2, h3, h4, h5, h6, .navbar-brand {
     font-family: 'Roboto Slab', serif;
@@ -32,17 +32,17 @@ h4 {
 /* menu css */
 .navbar {
     background-color: var(--min-light) !important;
-    color:var(--min-dark) !important;
+    color: var(--min-dark) !important;
 }
 .navbar-brand:hover {
-    font-style:normal;
+    font-style: normal;
 }
 .navbar-brand {
-    float:left;
-    color:var(--min-dark) !important;
+    float: left;
+    color: var(--min-dark) !important;
 }
 .nav-link {
-    color:var(--min-dark) !important;
+    color: var(--min-dark) !important;
 }
 .active {
     text-decoration: underline;
@@ -52,21 +52,21 @@ h4 {
 }
 .dropdown-toggle {
     background-color: rgba(0,0,0,0);
-    border:0;
+    border: 0;
 }
 #selvbetjening {
-    float:left;
+    float: left;
 }
 
 /* footer css */
 .footer {
     background-color: var(--min-light);
     color: var(--min-dark);
-    position:relative;
-    margin:0;
-    padding:0.5ex 0 1.5ex;
-    bottom:0px;
-    width:100%;
+    position: relative;
+    margin: 0;
+    padding: 0.5ex 0 1.5ex;
+    bottom: 0px;
+    width: 100%;
 }
 .footer .row {
     font-size: small;
@@ -75,7 +75,7 @@ h4 {
     text-align: right;
 }
 .footer-info {
-    margin-top:1rem;
+    margin-top: 1rem;
 }
 /* generel css */
 a {
@@ -83,23 +83,23 @@ a {
     text-decoration: none;
 }
 body {
-    padding-bottom:0;
+    padding-bottom: 0;
     min-height: 100vh;
 }
 .body {
     display: flex;
     flex-direction: column;
-    min-height:100vh;
-    justify-content:space-between;
+    min-height: 100vh;
+    justify-content: space-between;
 }
 .btn {
     background-color: var(--min-primary);
-    border:0;
-    color:var(--min-secondary);
+    border: 0;
+    color: var(--min-secondary);
 }
 .btn:hover{
     background-color: var(--min-secondary);
-    color:var(--min-white);
+    color: var(--min-white);
 }
 ul {
     list-style-type: none;
@@ -111,7 +111,7 @@ ul {
 }
 @media (max-width: 768px) {
     .imggone {
-        display:none;
+        display: none;
     }
 }
 .forsideimg {
@@ -144,6 +144,12 @@ ul {
 }
 @media (max-width: 576px) {
     .logos {
-        display:none;
+        display: none;
+    }
+    .bibliography {
+        text-align: center;
+    }
+    .bibtext {
+        margin-left: -2rem;
     }
 }
