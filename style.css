@@ -9,8 +9,6 @@
     --min-primary: #94d3ed;
     --min-secondary: #2879de;
     --min-dark: #3d5391;
-    --img-width: 11rem;
-    --max-width: 33%;
 }
 
 p, span, button, a, body {
@@ -144,4 +142,8 @@ ul {
     height: 5rem;
     margin: 0.5rem;
 }
-
+@media (max-width: 576px) {
+    .logos {
+        display:none;
+    }
+}
