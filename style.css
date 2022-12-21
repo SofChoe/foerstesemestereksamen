@@ -2,13 +2,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+/* Mine egne farver */
+:root {
+    --min-white: #ffffff;
+    --min-light: #e0f2ff;
+    --min-primary: #94d3ed;
+    --min-secondary: #2879de;
+    --min-dark: #3d5391;
+    --img-width: 11rem;
+    --max-width: 33%;
+}
+
 p, span, button, a, body {
     font-family: 'Nunito', sans-serif;
     color:var(--min-dark);
 }
 h1, h2, h3, h4, h5, h6, .navbar-brand {
     font-family: 'Roboto Slab', serif;
-    color:var(--min-dark);
+    color: var(--min-dark);
 }
 h2 {
     font-size: x-large;
@@ -18,15 +29,6 @@ h3 {
 }
 h4 {
     font-size: large;
-}
-
-/* Mine egne farver */
-:root {
-    --min-white: #ffffff;
-    --min-light: #e0f2ff;
-    --min-primary: #94d3ed;
-    --min-secondary: #2879de;
-    --min-dark: #3d5391;
 }
 
 /* menu css */
@@ -106,11 +108,16 @@ ul {
 }
 /* Forside css */
 .inside {
-    width:11rem;
-    height:calc(11rem/1.5);
+    width: 11rem;
+    height: calc(11rem/1.5);
 }
-#forsideimg {
-    margin-bottom: 2rem;;
+@include media-breakpoint-up(xs) {
+    .inside {
+        display:none;
+    }
+}
+.forsideimg {
+    margin-bottom: 2rem;
 }
 .tider {
     text-align: center;
@@ -124,17 +131,17 @@ ul {
     font-size: medium;
 }
 .portait {
-    width:15rem;
+    width: 15rem;
     max-width: 30%;
 }
 .personale {
-    width:30rem; 
-    max-width:100%;
+    width: 30rem; 
+    max-width: 100%;
 }
 
 /* Litteraturliste css */
 .logos {
-    height:5rem;
-    margin:0.5rem;
+    height: 5rem;
+    margin: 0.5rem;
 }
 
