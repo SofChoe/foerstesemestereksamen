@@ -77,6 +77,9 @@ h4 {
 .footer-info {
     margin-top: 1rem;
 }
+.info {
+    margin-bottom: 0.5rem;
+}
 /* generel css */
 a {
     color: var(--min-secondary);
@@ -109,11 +112,6 @@ ul {
     width: 11rem;
     height: calc(11rem/1.5);
 }
-@media (max-width: 768px) {
-    .imggone {
-        display: none;
-    }
-}
 .forsideimg {
     margin-bottom: 2rem;
 }
@@ -141,6 +139,13 @@ ul {
 .logos {
     height: 5rem;
     margin: 0.5rem;
+}
+
+/* breakpoint specific css */
+@media (max-width: 768px) {
+    .imggone {
+        display: none;
+    }
 }
 @media (max-width: 576px) {
     .logos {
