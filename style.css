@@ -167,3 +167,8 @@ ul {
         margin-left: -2rem;
     }
 }
+@media (min-width: 1200px) {
+    .navbar-brand {
+        margin-right: 25%;
+    }
+}
