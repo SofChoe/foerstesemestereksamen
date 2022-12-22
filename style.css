@@ -47,9 +47,6 @@ h4 {
 .active {
     text-decoration: underline;
 }
-.drop-second {
-    text-indent: 1rem;
-}
 .dropdown-toggle {
     background-color: rgba(0,0,0,0);
     border: 0;
@@ -80,6 +77,7 @@ h4 {
 .info {
     margin-bottom: 0.5rem;
 }
+
 /* generel css */
 a {
     color: var(--min-secondary);
@@ -107,6 +105,7 @@ body {
 ul {
     list-style-type: none;
 }
+
 /* Forside css */
 .inside {
     width: 11rem;
@@ -118,7 +117,9 @@ ul {
 .tider {
     text-align: center;
     border-color: black;
+    margin-bottom: 2rem;
 }
+
 /* Personale side css */
 .navn {
     font-size: large;
@@ -133,6 +134,11 @@ ul {
 .personale {
     width: 40rem; 
     max-width: 100%;
+}
+.doctors {
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
 }
 
 /* Litteraturliste css */
